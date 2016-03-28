@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-source 'https://rails-assets.org'
+source 'https://rails-assets.tenex.tech.'
 
 ruby '2.2.2', :engine => 'jruby', :engine_version => '9.0.0.0'
 
