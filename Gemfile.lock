@@ -1,6 +1,6 @@
 GEM
   remote: https://rubygems.org/
-  remote: https://rails-assets.tenex.tech./
+  remote: https://rails-assets.tenex.tech/
   specs:
     actionmailer (4.2.6)
       actionpack (= 4.2.6)
@@ -148,13 +148,14 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord-jdbcsqlite3-adapter
+  bundler (>= 1.8.4)
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
   jquery-rails
   puma
   rails (= 4.2.6)
-  rails-assets-angularjs
-  rails-assets-bootstrap
+  rails-assets-angularjs!
+  rails-assets-bootstrap!
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   therubyrhino

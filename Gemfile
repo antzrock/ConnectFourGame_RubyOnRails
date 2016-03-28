@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
-source 'https://rails-assets.tenex.tech.'
-
 ruby '2.2.2', :engine => 'jruby', :engine_version => '9.0.0.0'
+
+gem 'bundler', '>= 1.8.4'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
@@ -38,10 +38,13 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
+
+source 'https://rails-assets.tenex.tech' do
 # Bootstrap
-gem 'rails-assets-bootstrap'
+  gem 'rails-assets-bootstrap'
 
 # Angular JS
-gem 'rails-assets-angularjs'
+  gem 'rails-assets-angularjs'
+end
 
 gem 'puma'
