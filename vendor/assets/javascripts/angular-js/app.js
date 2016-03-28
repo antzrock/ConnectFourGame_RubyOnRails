@@ -56,15 +56,15 @@ connect4Game.config(['$routeProvider',
     function($routeProvider) {
         $routeProvider.
         when('/start', {
-            templateUrl: 'assets/angular-js/game/start/start.html',
+            templateUrl: 'assets/javascripts/angular-js/game/start/start.html',
             controller: 'StartCtrl'
         }).
         when('/game/:player1/:player2/:isPlayer1Ai/:isPlayer2Ai', {
-            templateUrl: 'assets/angular-js/game/ingame/in_game.html',
+            templateUrl: 'assets/javascripts/angular-js/game/ingame/in_game.html',
             controller: 'InGameCtrl'
         }).
         when('/end', {
-            templateUrl: 'assets/angular-js/game/end/end.html',
+            templateUrl: 'assets/javascripts/angular-js/game/end/end.html',
             controller: 'EndCtrl'
         }).
         otherwise({
