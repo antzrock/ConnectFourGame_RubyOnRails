@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 source 'http://rails-assets.org'
 
+ruby '2.2.2', :engine => 'jruby', :engine_version => '9.0.0.0'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
 # Use jdbcsqlite3 as the database for Active Record
@@ -41,3 +43,5 @@ gem 'rails-assets-bootstrap'
 
 # Angular JS
 gem 'rails-assets-angularjs'
+
+gem 'puma'
