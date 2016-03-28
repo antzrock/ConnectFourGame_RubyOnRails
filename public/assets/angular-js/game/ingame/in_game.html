@@ -1,0 +1,35 @@
+<div id="game" class="row animated bounceIn">
+    <div class="col-md-12">
+
+        <div class="scores row">
+            <div class="col-md-12">
+                <span class="player player1">
+                    <span class="badge">{{ player1.score }}</span>
+                    <span>&nbsp;{{ player1.pseudo }}</span>
+                </span>
+                <span class="player player2">
+                    <span class="badge">{{ player2.score }}</span>
+                    <span>&nbsp;{{ player2.pseudo }}</span>
+                </span>
+            </div>
+        </div>
+
+        <div class="row">
+            <canvas id="canvas"></canvas>
+        </div>
+
+        <div class="scores row">
+            <!--<div class="progress" style="{{ progessBarWidth }}">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="{{ progess }}" aria-valuemin="0" aria-valuemax="100" style="{{ progessStyle }}">
+                    {{ progess }}%
+                </div>
+            </div>-->
+            <div class="col-md-12">
+                <span class="game_status">
+                    <span class="badge">Status:</span>
+                    <span>&nbsp;{{ gameStatus }}</span>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
