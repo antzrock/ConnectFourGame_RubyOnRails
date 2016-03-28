@@ -3,10 +3,10 @@ Author: Antonio Amiel L. Yap
 */
 
 /* Google Font */
-@import url(../fonts/Montserrat/fonts.css);
+@import url(../fonts/Montserrat/fonts.css.less);
 
 /* Fontawesome */
-@import url(../frameworks/font-awesome/css/font-awesome.css);
+@import url(../frameworks/font-awesome/css/font-awesome.css.less);
 
 body
 {
